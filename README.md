@@ -19,7 +19,7 @@ For the PCA, MNF, MAF, & ICA (16-Bit RGB):
 For the PCA, MNF, MAF, & ICA (8-Bit and 16-Bit Multispectral images (grayscale)):
   python3 -m pip install numpy tkinter sklearn scipy, matplotlib
 
-For the Alt Color Space script (splits RGB tiff into the three channels for four different alternative color spaces: Opponent Color Space, CMYK, HSV, LAB, LUV, and YCrCb):
+For the Alt Color Space script (splits RGB tiff into the three channels for four different alternative color spaces: Opponent Color Space, CMYK, HSV, HSL, LAB, LUV, and YCrCb):
   python3 -m pip install numpy tiffile tkinter
 
 I've generated short videos for running the PCA, MNF, MAF, and ICA script:  ; and the LDA script: https://youtu.be/r3n9DJVhhH4.
