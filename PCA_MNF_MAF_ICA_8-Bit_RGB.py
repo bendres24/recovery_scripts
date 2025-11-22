@@ -138,8 +138,10 @@ for f in files:
             p_low, p_high = np.percentile(comp, (2, 98))
             comp = np.clip(comp, p_low, p_high)
             scaled = ((comp - p_low) / (p_high - p_low) * 255).astype(np.uint8)
-            cv2.imwrite(os.path.join(out_dir, f"{os.path.splitext(f)[0]}_{method}_Comp{i+1}.tif"),
-                        cv2.cvtColor(scaled, cv2.COLOR_GRAY2BGR))
+             cv2.imwrite(
+                os.path.join(out_dir, f"{os.path.splitext(f)[0]}_{method}_Comp{i+1}.tif"),
+                scaled
+            )
 
     plt.figure(figsize=(8, 5))
     for method, vals in eig_plots.items():
