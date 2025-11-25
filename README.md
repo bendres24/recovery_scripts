@@ -1,6 +1,8 @@
 # recovery_scripts
-These Python scripts apply methods of statistical analysis to digital images to recover damaged content. I developed them working with ChatGPT and on a Mac using Python's IDLE Shell. They 
-have been written to work with 8- and 16-bit tiff images.
+These Python scripts apply methods of statistical analysis to digital images to recover damaged content. I developed them working with ChatGPT and continue to tinker with them to add flexibility and features. 
+They've been written to run on a Mac using Python's IDLE Shell. While the alternative color space script works with JPGs and TIFFs, the others work with 8- and/or 16-bit TIFFs. I have written these scripts
+for smaller sets of data. Feel free to edit them any way you wish, whether to mesh with your workflow or enhance/extend them. If the ladder, please email me at bill.endres@ou.edu. I'm curious to hear about
+your efforts. 
 
 To run the scripts, make sure that the necessary python libraries are installed. Normally, I install them through Mac's Terminal (press COMMAND+spacebar, type Terminal in the Spotlight Search and hit return.
 
