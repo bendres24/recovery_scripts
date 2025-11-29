@@ -13,10 +13,10 @@ For the LDA script, you can install the needed libraries in one command:
   python3 -m pip install numpy matplotlib scikit-learn opencv-python
 
 For the PCA, MNF, MAF, & ICA (8-Bit RGB):
-  python3 -m pip install numpy tkinter sklearn scipy, matplotlib
+  python3 -m pip install numpy tkinter sklearn scipy matplotlib
 
 For the PCA, MNF, MAF, & ICA (16-Bit RGB):
-  python3 -m pip install numpy tiffle tkinter sklearn scipy, matplotlib
+  python3 -m pip install numpy tiffle tkinter sklearn scipy matplotlib
 
 For the PCA, MNF, MAF, & ICA (8-Bit and 16-Bit Multispectral images (grayscale)):
   python3 -m pip install numpy tkinter sklearn scipy, matplotlib
